@@ -4,11 +4,11 @@ jobs:
 
     GetAppVersions:
      runs-on: ubuntu-latest
-       steps:
+     steps:
        - name: Git Version
-        run: git verson
+         run: git version
        - name: Docker Version
-        run: docker --version
+         run: docker --version
        
 
     PingApps:
