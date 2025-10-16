@@ -11,10 +11,10 @@ jobs:
          run: docker --version
        
 
-    PingApps:
+    OSVersion:
      runs-on: ubuntu-latest
      steps:
-       - name: ping google
-         run: ping -c 4 google.com
-       - name: ping Facebook
-         run: ping -c 4 facebook.com
+       - name: ubuntuversion
+         run: hostnamectl
+       - name: getDiskUsage
+         run: df -Th
