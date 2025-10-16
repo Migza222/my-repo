@@ -13,8 +13,8 @@ jobs:
 
     PingApps:
      runs-on: ubuntu-latest
-       steps:
+     steps:
        - name: ping google
-        run: ping -c 4 google.com
+         run: ping -c 4 google.com
        - name: ping Facebook
-        run: ping -c 4 facebook.com
+         run: ping -c 4 facebook.com
